@@ -38,7 +38,7 @@ def processing():
 
 @app.route('/apipage',methods=['POST','GET'])
 def apipage():
-    return render_template('index93.html')
+    return render_template('index73.html')
 
 
 @app.route('/google')
@@ -51,7 +51,7 @@ def pagesuccess():
 
 @app.route('/apipage/pagefailure')
 def pagefailure():
-    return redirect("indec26.html")
+    return redirect("index26.html")
 	# return jsonify({'error' : 'Missing data!'})
 
 

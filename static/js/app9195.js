@@ -72,6 +72,7 @@ submitBtn.addEventListener('click', function()
                                 username: username1,
                                 phone: phone1,
                                 displayname: displayname1,
+                                organization:"cardpay"
                             
                             }).then(function () {
                         

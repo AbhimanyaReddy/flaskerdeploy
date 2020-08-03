@@ -51,8 +51,9 @@ def pagesuccess():
 
 @app.route('/apipage/pagefailure')
 def pagefailure():
-    return redirect("index26.html")
-	# return jsonify({'error' : 'Missing data!'})
+    return render_template("index146.html")
+
+
 
 
 if __name__ == '__main__':
